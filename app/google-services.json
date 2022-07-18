@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "754806852019",
+    "project_id": "handaebong-7324f",
+    "storage_bucket": "handaebong-7324f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754806852019:android:2caa47944eb4e59123a3c6",
+        "android_client_info": {
+          "package_name": "com.handaebong.handaebong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754806852019-npmvrv0mm80hfs45bvte2ohsa4c2j7sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.handaebong.handaebong",
+            "certificate_hash": "80a3f5731486921c0d9ddf9168230ddf5f7701e7"
+          }
+        },
+        {
+          "client_id": "754806852019-0hpoavd8sf7dn42mv0rh23ht8d84ngu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP-DAt3GJIsELaKaG3PJkKPmrKUq1qILY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754806852019-0hpoavd8sf7dn42mv0rh23ht8d84ngu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

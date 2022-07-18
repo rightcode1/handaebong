@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"
+                android:src="@drawable/back"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/notosanscjkkr_medium_cus"
+                android:text="고객센터"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/notosanscjkkr_medium_cus"
+                    android:text="유의사항"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginRight="5dp"></TextView>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/qacenter_noti"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="가게조치 및 개선 권고에 대한 결과는 고객의 요청에 따라 전화 또는 메일로 안내해드립니다."
+                android:textColor="#4a4a4a"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="주문 및 배달을 위해 가게로 전달된 주문정보는 배달이 완료 되면 마스킹 처리합니다."
+                android:textColor="#4a4a4a"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="안심번호 적용 시 실제 연락처가 노출되지 않도록 임시가상 번호가 발급되며, 자동 해지됩니다."
+                android:textColor="#4a4a4a"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="허위신고로 인해 피해 발생 시 법적 처벌을 받을 수 있습니다."
+                android:textColor="#4a4a4a"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="고객 안심 센터 상담 시 통화 내용은 서비스 품질 향상을 위해 녹음됩니다."
+                android:textColor="#4a4a4a"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"></TextView>
+
+            <ImageView
+                android:id="@+id/img_kakao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/qacenter_kakao"
+                android:layout_marginTop="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/spoqahansans_regular_cus"
+                android:text="사업자 정보"
+                android:textColor="#bcbcbc"
+                android:textSize="8sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

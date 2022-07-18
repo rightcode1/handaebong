@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:background="@color/white">
+    <TextView
+        android:text="복사하기"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/dialog_chat_copy"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="답장하기"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/dialog_chat_reply"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+</LinearLayout>

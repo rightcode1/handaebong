@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable-v24/border_white.xml" value="0.157" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_call.xml" value="0.1855" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_chat_my.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_chat_other.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_menu.xml" value="0.157" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_menu_click.xml" value="0.157" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_search.xml" value="0.144" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_thumb.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/border_white.xml" value="0.1855" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/drawable/ic_like_white.xml" value="0.1265" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/font/nanumsquareround_r_cus.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/font/spoqahansans_bold_cus.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/font/spoqahansans_regular_cus.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/font/spoqahansans_thin_cus.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_chat_room.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_flash.xml" value="0.176" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_img.xml" value="0.1484375" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_notice.xml" value="0.1125" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_qa.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_like.xml" value="0.1484375" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_menu.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_notice.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_notice_focus.xml" value="0.4" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_privacy.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_push.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_qa.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_qacenter.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_rec.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_rec_focus.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_setting_rec_input.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_shop_search.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_shopfocus.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_shopfocus2.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_shoplist.xml" value="0.176" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_shoplist_v2.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/anim_non.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/border_call.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/border_search.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/dialog_chat.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/dialog_nick_modi.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/dialog_nick_register.xml" value="0.4" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/dialog_progress.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/dialog_update.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/frag_com_free.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/frag_img.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/frag_shoplist.xml" value="0.10733695652173914" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/fragment_event.xml" value="0.16" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_block.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_chatroom_date.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_chatroom_message_my.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_chatroom_message_other.xml" value="0.34076433121019106" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_notice.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_quiry.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_shop.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_shop_menu.xml" value="0.264" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_shop_menu_category.xml" value="0.4" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/list_item_shop_menu_tab.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Public/Documents/handaebong/app/src/main/res/layout/main_navi.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
