@@ -35,7 +35,7 @@ import me.drakeet.materialdialog.MaterialDialog;
 
 public class flash extends AppCompatActivity {
     //버전 값 정의
-    String Project_version = "1.0.3";
+    String Project_version = "1.0.8";
     String[] ParsedData_Setting;
 
     SharedPreferences preferences;

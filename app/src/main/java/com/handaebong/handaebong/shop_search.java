@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,7 +37,8 @@ public class shop_search extends AppCompatActivity {
 
     private SharedPreferences preferences;
 
-    public RecyclerView List_Contents;
+    public NestedScrollView Scroll_Contents1;
+    public RecyclerView List_Contents1, List_Contents2;
     public ArrayList<shoplist_model> Shoplist_models;
     public shop_adapter Shop_Adapter;
 
@@ -66,7 +68,9 @@ public class shop_search extends AppCompatActivity {
         Img_Back = (ImageView)findViewById(R.id.img_back);
         Img_Search = (ImageView)findViewById(R.id.img_search);
         Edit_Search = (EditText)findViewById(R.id.edit_search);
-        List_Contents = (RecyclerView)findViewById(R.id.list_contents);
+        List_Contents1 = (RecyclerView)findViewById(R.id.list_contents);
+        List_Contents2 = (RecyclerView)findViewById(R.id.list_contents2);
+        Scroll_Contents1 = (NestedScrollView)findViewById(R.id.scroll_contents1);
         Shoplist_models = new ArrayList<shoplist_model>();
         Txt_Title = (TextView)findViewById(R.id.txt_title);
 
@@ -189,6 +193,7 @@ public class shop_search extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
 
+            Scroll_Contents1.setVisibility(View.GONE);
             Txt_Title.setVisibility(View.GONE);
 
             if(parseredData_list == null){
@@ -206,8 +211,8 @@ public class shop_search extends AppCompatActivity {
                     layoutManager.scrollToPosition(0);
 
                     Shop_Adapter = new shop_adapter(shop_search.this, Shoplist_models);
-                    List_Contents.setLayoutManager(layoutManager);
-                    List_Contents.setAdapter(Shop_Adapter);
+                    List_Contents2.setLayoutManager(layoutManager);
+                    List_Contents2.setAdapter(Shop_Adapter);
 
                     Edit_Search.setText("");
                 }
@@ -361,8 +366,8 @@ public class shop_search extends AppCompatActivity {
             layoutManager.scrollToPosition(0);
 
             Shop_Adapter = new shop_adapter(shop_search.this, Shoplist_models);
-            List_Contents.setLayoutManager(layoutManager);
-            List_Contents.setAdapter(Shop_Adapter);
+            List_Contents1.setLayoutManager(layoutManager);
+            List_Contents1.setAdapter(Shop_Adapter);
 
             progressDialog.dismiss();
         }

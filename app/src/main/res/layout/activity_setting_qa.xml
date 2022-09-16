@@ -55,10 +55,11 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/spoqahansans_regular_cus"
-                    android:text="한대봉에 입점을 원하시는 분들은 하단 양식을 참고하여\n항목에 맞게 작성 부탁드립니다. 입점 문의 상으로 기재해\n주신 내영을 토대로 내부 검토를 통해 입점 가능 여부 및\n절차를 안내해드립니다."
+                    android:text="한대봉에 입점을 원하시는 분들은 하단 양식을 참고하여 항목에 맞게 작성 부탁드립니다. \n입점 문의 상으로 기재해주신 내영을 토대로 내부 검토를 통해 입점 가능 여부 및절차를 안내해드립니다."
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:layout_marginTop="20dp"
+                    android:lineSpacingExtra ="3dp"
                     android:gravity="center_vertical"></TextView>
 
                 <TextView

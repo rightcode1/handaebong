@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView Img_Menu, Img_Like;
     private DrawerLayout Layout_Main;
 
-    private LinearLayout Layout_Category_All;
+    //private LinearLayout Layout_Category_All;
     private LinearLayout Layout_Category_Chicken;
     private LinearLayout Layout_Category_Fastfood;
     private LinearLayout Layout_Category_Snack;
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         Layout_Notice = (LinearLayout)findViewById(R.id.layout_notice);
         Layout_Setting = (LinearLayout)findViewById(R.id.layout_setting);
 
-        Layout_Category_All = (LinearLayout)findViewById(R.id.layout_category_all);
+        //Layout_Category_All = (LinearLayout)findViewById(R.id.layout_category_all);
         Layout_Category_Chicken = (LinearLayout)findViewById(R.id.layout_category_chicken);
         Layout_Category_Fastfood = (LinearLayout)findViewById(R.id.layout_category_fastfood);
         Layout_Category_Snack = (LinearLayout)findViewById(R.id.layout_category_snack);
@@ -346,7 +346,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //상점 리스트 - 전체 이동 이벤트
-        Layout_Category_All.setOnClickListener(new View.OnClickListener() {
+       /* Layout_Category_All.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, shop_list_v2.class);
@@ -354,7 +354,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 overridePendingTransition(R.anim.anim_slide_in_right,R.anim.anim_none);
             }
-        });
+        });*/
 
         //상점 리스트 - 치킨 이동 이벤트
         Layout_Category_Chicken.setOnClickListener(new View.OnClickListener() {

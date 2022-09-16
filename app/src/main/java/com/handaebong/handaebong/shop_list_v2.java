@@ -111,12 +111,12 @@ public class shop_list_v2 extends AppCompatActivity {
     //메뉴 리스트 초기화
     public void setMenu(){
         Shoplist_memu_models.clear();
-        if(str_category.equals("전체")){
+       /* if(str_category.equals("전체")){
             Shoplist_memu_models.add(new shoplist_menu_model(shop_list_v2.this, "전체", true));
         }
         else{
             Shoplist_memu_models.add(new shoplist_menu_model(shop_list_v2.this, "전체", false));
-        }
+        }*/
 
         if(str_category.equals("치킨")){
             Shoplist_memu_models.add(new shoplist_menu_model(shop_list_v2.this, "치킨", true));
@@ -412,72 +412,66 @@ public class shop_list_v2 extends AppCompatActivity {
         public Fragment createFragment(int position) {
             switch (position) {
                 case 0:
-                    Fragment f = new frag_shoplist();
-                    Bundle bundle = new Bundle();
-                    bundle.putString("diff", "전체");
-                    f.setArguments(bundle);
-                    return f;
-                case 1:
                     Fragment f1 = new frag_shoplist();
                     Bundle bundle1 = new Bundle();
                     bundle1.putString("diff", "치킨");
                     f1.setArguments(bundle1);
                     return f1;
-                case 2:
+                case 1:
                     Fragment f2 = new frag_shoplist();
                     Bundle bundle2 = new Bundle();
                     bundle2.putString("diff", "피자/햄버거");
                     f2.setArguments(bundle2);
                     return f2;
-                case 3:
+                case 2:
                     Fragment f3 = new frag_shoplist();
                     Bundle bundle3 = new Bundle();
                     bundle3.putString("diff", "분식/도시락");
                     f3.setArguments(bundle3);
                     return f3;
-                case 4:
+                case 3:
                     Fragment f4 = new frag_shoplist();
                     Bundle bundle4 = new Bundle();
                     bundle4.putString("diff", "일식/돈까스");
                     f4.setArguments(bundle4);
                     return f4;
-                case 5:
+                case 4:
                     Fragment f5 = new frag_shoplist();
                     Bundle bundle5 = new Bundle();
                     bundle5.putString("diff", "백반/국수");
                     f5.setArguments(bundle5);
                     return f5;
-                case 6:
+                case 5:
                     Fragment f6 = new frag_shoplist();
                     Bundle bundle6 = new Bundle();
                     bundle6.putString("diff", "찜/탕/찌개");
                     f6.setArguments(bundle6);
                     return f6;
-                case 7:
+                case 6:
                     Fragment f7 = new frag_shoplist();
                     Bundle bundle7 = new Bundle();
                     bundle7.putString("diff", "고기/구이");
                     f7.setArguments(bundle7);
                     return f7;
-                case 8:
+                case 7:
                     Fragment f8 = new frag_shoplist();
                     Bundle bundle8 = new Bundle();
                     bundle8.putString("diff", "중식");
                     f8.setArguments(bundle8);
                     return f8;
-                case 9:
+                case 8:
                     Fragment f9 = new frag_shoplist();
                     Bundle bundle9 = new Bundle();
                     bundle9.putString("diff", "양식/아시안");
                     f9.setArguments(bundle9);
                     return f9;
-                case 10:
+                case 9:
                     Fragment f10 = new frag_shoplist();
                     Bundle bundle10 = new Bundle();
                     bundle10.putString("diff", "카페/디저트");
                     f10.setArguments(bundle10);
                     return f10;
-                case 11:
+                case 10:
                     Fragment f11 = new frag_shoplist();
                     Bundle bundle11 = new Bundle();
                     bundle11.putString("diff", "뷰티/편의");
@@ -489,7 +483,7 @@ public class shop_list_v2 extends AppCompatActivity {
 
         @Override
         public int getItemCount() {
-            return 12;
+            return 11;
         }
     }
 }
